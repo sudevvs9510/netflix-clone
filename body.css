@@ -1,0 +1,81 @@
+.con-space{
+  width:75%;
+  margin:auto;
+
+}
+
+.container{
+  width:75%;
+  margin:auto;
+}
+
+.section{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.section .container{
+  margin: 50px auto;
+}
+
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordian-section{
+  background-color: rgb(0, 0, 0);
+  padding: 40px  20px 60px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.accordion-item{
+  background-color: black;
+  border: none;
+  /* color: rgb(255,255,255); */
+  margin: 10px auto;
+}
+.accordion-button{
+  background-color: rgb(49, 49, 49) ;
+  color: white;
+  margin: 5px auto;
+  font-weight: 700;
+  padding:24px;
+  border-radius:0 !important;
+} 
+.accordion-button:hover{
+  background-color:rgb(95, 95, 94) ; ;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(49, 49, 49) ;
+  color: white;
+  border: none;
+}
+
+.accordion-body{
+   background-color: rgb(49, 49, 49) ;
+   padding:24px;
+}
+.accordion-collapse{
+  background-color:  rgb(49, 49, 49) ;
+}
+
+.faq-text,
+.accordion-hidden-text
+{
+  font-size:24px;
+  color:rgb(255,255,255);
+  font-weight:400;
+}
+
+.inp-bg-color{
+  background-color:#0F0F0F ;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+
+

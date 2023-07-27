@@ -1,0 +1,133 @@
+@media (min-width:1280px) and (max-width:1800px) {
+  .netflix-top {
+    padding-left: 110px;
+    padding-right: 110px;
+    height:85px;
+  }
+
+  .netflix-logo {
+    width: 200px;
+    position: relative;
+    top: -10px;
+  }
+
+  .sec-2{
+    height:600px;
+    align-items: center;
+  }
+}
+
+@media (max-width:1024px) {
+  .wrapper {
+    height: 700px;
+    position: relative;
+  }
+
+  .form-email {
+    height: 50px;
+    padding: 14px;
+    margin-bottom:12px;
+  }
+
+  .get-started {
+    height: 50px;
+    padding: 10px;
+  }
+
+  .netflix-logo {
+    width: 140px;
+    position: relative;
+  }
+
+  .con-space,
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+}
+
+@media (min-width:992px) {
+  .section-img {
+    max-width: 500px;
+  }
+
+}
+
+@media (max-width:500px) {
+  .netflix-logo {
+    width: 120px;
+    margin: 0px;
+  }
+
+
+  .sign-in,
+  .dropdown,
+  .top-left {
+    margin-top: 8px;
+  }
+
+  .netflix-top {
+    padding-left: 15px;
+    padding-right: 5px;
+  }
+
+  .form-select {
+    width: 75px;
+    margin-top: 8px;
+  }
+
+}
+
+@media (max-with:374px) {
+  .netflix-logo {
+    width: auto;
+    margin: 0px;
+  }
+
+  .sec-2{
+    height:500px !important;
+    align-items: center;
+  }
+
+  .container{
+    width:92%;
+    margin:auto;
+  }
+
+  .sign-in,
+  .dropdown,
+  .top-left {
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+
+  .head-input{
+    width:85%;
+  }
+
+  section{
+    padding:5px;
+  }
+  .faq-text{
+    font-size:18px;
+  }
+ 
+}
+
+@media (max-width:768px){
+  .faq-text{
+    font-size:18px;
+  }
+  .sec-2-upper{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .wrapper {
+    height: 500px;
+    position: relative;
+  }
+
+
+}
